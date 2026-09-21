@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Shield Shadow -->
+    <path
+        android:fillColor="#33000000"
+        android:pathData="M33,32 L75,32 C75,58 54,78 54,80 C54,78 33,58 33,32 Z" />
+    <!-- Main Accountability Shield with gradient -->
+    <path
+        android:pathData="M32,30 L76,30 C76,57 54,77 54,77 C54,77 32,57 32,30 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="32"
+                android:startY="30"
+                android:endX="76"
+                android:endY="77"
+                android:type="linear">
+                <item android:color="#3B82F6" android:offset="0.0" />
+                <item android:color="#8B5CF6" android:offset="0.5" />
+                <item android:color="#EC4899" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Inner Dark Core for contrast -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M37,34 L71,34 C71,54 54,69 54,69 C54,69 37,54 37,34 Z" />
+    <!-- Clock / Countdown ring badge at top right -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M65,30 A7,7 0 1,1 79,30 A7,7 0 1,1 65,30" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M71.5,26 L72.5,26 L72.5,30 L75,31.5 L74.5,32.3 L71.5,30.5 Z" />
+    <!-- Sharp Neon Checkmark inside shield -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M44,48 L50,54 L65,39 L68,42 L50,60 L41,51 Z" />
+</vector>

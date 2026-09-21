@@ -1,0 +1,7 @@
+{
+  "name": "Accountability Tasks",
+  "description": "Task management and strict accountability app featuring deadline tracking, overdue penalty locks, and playful punishment challenges.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
